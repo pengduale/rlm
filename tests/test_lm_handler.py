@@ -2,7 +2,7 @@
 
 import pytest
 
-from rlm.clients.mock_lm import MockLM
+from tests.mock_lm import MockLM
 from rlm.core.comms_utils import LMRequest, send_lm_request, send_lm_request_batched
 from rlm.core.lm_handler import LMHandler
 
