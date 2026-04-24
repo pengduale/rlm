@@ -72,7 +72,8 @@ python_classes = ["Test*"]
 python_functions = ["test_*"]
 # Removed --cov-report=xml since I'm only running tests locally
 # Also added -v for more verbose output so I can see which tests pass/fail at a glance
-addopts = "--cov=src/rlm --cov-report=term-missing -v"
+# Added -x to stop on first failure -- saves time when iterating on a broken test
+addopts = "--cov=src/rlm --cov-report=term-missing -v -x"
 
 [tool.coverage.run]
 source = ["src/rlm"]
