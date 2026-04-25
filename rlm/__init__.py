@@ -2,6 +2,9 @@
 
 A library for training and evaluating language models using
 reinforcement learning techniques.
+
+Note: Personal fork for experimenting with RLHF techniques.
+Original project by alexzhang13: https://github.com/alexzhang13/rlm
 """
 
 __version__ = "0.1.0"
